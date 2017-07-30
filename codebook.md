@@ -1,4 +1,4 @@
-#Codebook
+# Codebook
 
 The dataset contains data collected from the accelerometers from the Samsung Galaxy S smartphone. Data is collected for 30 subjects and in 6 different activities. 
 
@@ -6,7 +6,7 @@ The original dataset contains a number of statistics of the data from different 
 
 This dataset contains the averages of each variable for each activity and each subject. This only concerns variables from the original dataset that include means or standard deviations. This dataset therefore contains 180 observations for 68 variables.
 
-##Variables
+## Variables
 There are 68 variables in total.
 * Activity: A labeled factor variable for one of the 6 activities
 ⋅⋅1. Walking
@@ -30,7 +30,7 @@ There are 68 variables in total.
 ⋅⋅* X, Y, Z: Denotes the three axes of measurement, X, Y and Z
 
 
-##Full variable list
+## Full variable list
 * Activity
 * Subject
 * MeanOf.Time.BodyAcc.Mean.X
@@ -100,5 +100,5 @@ There are 68 variables in total.
 * MeanOf.FFT.BodyBodyGyroJerkMag.Mean
 * MeanOf.FFT.BodyBodyGyroJerkMag.Std
 
-##Further info
-Refer to the readme files included in the original data set
+## Further info
+Refer to the readme files included in the zipfile of the original data set
