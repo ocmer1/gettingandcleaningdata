@@ -9,25 +9,25 @@ This dataset contains the averages of each variable for each activity and each s
 ## Variables
 There are 68 variables in total.
 * Activity: A labeled factor variable for one of the 6 activities
-⋅⋅1. Walking
-⋅⋅2. Walking upstairs
-⋅⋅3. Walking downstairs
-⋅⋅4. Sitting
-⋅⋅5. Standing
-⋅⋅6. Laying
+  1. Walking
+  2. Walking upstairs
+  3. Walking downstairs
+  4. Sitting
+  5. Standing
+  6. Laying
 * Subject: One of the 30 subjects identified by a simple id between 1 and 30
 * Measurement variables: There are 66 measurement variables in total. These are averages of the original sensor data. This data is normalized and will fall in the range [-1,1]. These are data from a combination of sensors. The keywords in the variable names explain what the variables mean:
-⋅⋅* Time: Indicating a time domain signal, captured at a rate of 50 Hz
-⋅⋅* FFT: Indicating a Fast Fourier Transform 
-⋅⋅* Body: Signal based on the body of the subject
-⋅⋅* Gravity: Signal based on gravitational force
-⋅⋅* Acc: Indicating an acceleration signal
-⋅⋅* Gyro: Indicating measurement from the gyroscope
-⋅⋅* Jerk: Indicating a sudden movement, derived from body acceleration and angular velocity
-⋅⋅* Mag: Indicating the magnitude of the movement
-⋅⋅* Mean: Indicating a mean
-⋅⋅* Std: Indicating a standard deviation
-⋅⋅* X, Y, Z: Denotes the three axes of measurement, X, Y and Z
+  * Time: Indicating a time domain signal, captured at a rate of 50 Hz
+  * FFT: Indicating a Fast Fourier Transform 
+  * Body: Signal based on the body of the subject
+  * Gravity: Signal based on gravitational force
+  * Acc: Indicating an acceleration signal
+  * Gyro: Indicating measurement from the gyroscope
+  * Jerk: Indicating a sudden movement, derived from body acceleration and angular velocity
+  * Mag: Indicating the magnitude of the movement
+  * Mean: Indicating a mean
+  * Std: Indicating a standard deviation
+  * X, Y, Z: Denotes the three axes of measurement, X, Y and Z
 
 
 ## Full variable list
