@@ -4,7 +4,7 @@ download.file(url, destfile = "Dataset.zip")
 unzip("Dataset.zip")
 
 ##Read tables
-test <- read.table("UCI HAR DATASET/test/X_test.txt")
+test <- read.table("UCI HAR Dataset/test/X_test.txt")
 train <- read.table("UCI HAR Dataset/train/X_train.txt")
 features <- read.table("UCI HAR Dataset/features.txt")
 features <- features[,2]
