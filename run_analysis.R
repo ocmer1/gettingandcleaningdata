@@ -30,7 +30,7 @@ names(train_subject) <- "Subject"
 names(test_labels) <- "Activity"
 names(test_subject) <- "Subject"
 
-#Clip data together
+##Clip data together
 test <- cbind(test, test_labels, test_subject)
 train <- cbind(train, train_labels, train_subject)
 dataset <- rbind(test, train)
